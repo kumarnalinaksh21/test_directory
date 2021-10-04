@@ -5,7 +5,7 @@ n = len(sys.argv) #total arguments passed to the script
 m = ""
 c = 0
 
-def CheckInputAndConsolidateMessage(): 
+def CheckAndReturn(): 
     global n, m, c
 
     for i in range(1, n): #Forming message from the argument
@@ -22,4 +22,4 @@ def CheckInputAndConsolidateMessage():
     
 
 
-CheckInputAndConsolidateMessage()
+CheckAndReturn()
